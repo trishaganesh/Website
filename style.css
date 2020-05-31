@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  background: #0da15e;
+  height: 66px;
+}
+
+ul li {
+  margin-top: 14px;
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+}
+
+ul li a {
+  font-size: 2em;
+  color: #228B22;
+  padding: .4em;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background: #FFF;
+  border-radius: .4em;
+}
+
+#main {
+  float: left;
+}
+
+.pageOne {
+  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/mCz7hqj/videoblocks-abstract-neon-green-background-fractal-lines-loop_svr8lctse_thumbnail-full01.png");
+  height: 326px;
+}
+
+#title {
+  text-align: center;
+  color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12em;
+}
+
+#desc {
+  text-align: center;
+  color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4em;
+}
+
+.pageTwo {
+  background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/rVDbiYwweiyehotmi/videoblocks-binary-code-black-and-green-background-with-digits-moving-on-screen-concept-of-digital-age-algorithm-binary-data-code-decryption-and-encoding-row-matrix-background_sapjg-2_m_thumbnail-full01.png");
+  height: 5000px;
+}
+
+#proj-title {
+  color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8em;
+  text-align: center;
+}
+
+.tile {
+  text-align: center;
+  margin: 2.26em;
+  background: rgba(146, 146, 146, .5);
+  height: 22em;
+  width: 16em;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 2em;
+  vertical-align: middle;
+  
+}
+
+.tile img {
+  width: 5em;
+  padding: .4em;
+}
+
+.tile h2 {
+  color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tile p {
+  color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+}
